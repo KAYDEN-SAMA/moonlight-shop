@@ -54,7 +54,7 @@ function attachPurchaseButtonEvents() {
   purchaseButtons.forEach(function(button) {
     button.addEventListener('click', function() {
       const offerTitle = button.dataset.title;
-      const phoneNumber = '+212608091101';
+      const phoneNumber = '+962772803311';
       const message = `مرحبا، أود طلب عرض: ${offerTitle}`;
       window.open(generateWhatsAppLink(phoneNumber, message), '_blank');
     });
